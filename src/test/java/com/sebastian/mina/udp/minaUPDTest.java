@@ -34,9 +34,9 @@ import org.slf4j.LoggerFactory;
  * utilizada para pruebas
  *
  */
-public class Mina2UdpNoCamelTest {
+public class minaUPDTest {
 
-    private static Logger logger = LoggerFactory.getLogger(Mina2UdpNoCamelTest.class);
+    private static Logger logger = LoggerFactory.getLogger(minaUPDTest.class);
     Charset charset = Charset.defaultCharset();
     LineDelimiter delimiter = LineDelimiter.DEFAULT;
     Mina2TextLineCodecFactory codecFactory = new Mina2TextLineCodecFactory(charset, delimiter);
